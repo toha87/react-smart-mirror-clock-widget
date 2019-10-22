@@ -1,0 +1,21 @@
+{
+  "name": "react-smart-mirror-clock-widget",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/clockWidget.min.js",
+  "scripts": {
+    "build": "rollup -c -o dist/clockWidget.min.js"
+  },
+  "author": "Anatoli Railean",
+  "license": "ISC",
+  "dependencies": {
+    "react-clock": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.10.2",
+    "rollup": "^1.25.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-uglify": "^6.0.3"
+  }
+}
